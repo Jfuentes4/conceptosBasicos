@@ -8,6 +8,7 @@ console.log(`Color ${auto1.color}`);
 console.log(`Color ${auto2.color}`);
 auto1.color = 'Amarillo';
 auto2.color = 'Negro;'
+auto1.modelo = 1990;
 
 auto2.encender();
 auto3.encender();

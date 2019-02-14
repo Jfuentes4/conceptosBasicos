@@ -40,4 +40,12 @@ export default class Auto {
     this._color = color;
   }
 
+  set modelo (modelo) {
+    if (modelo < 200){
+      this._modelo = 2000;
+    } else {
+      this._modelo = modelo;
+    }
+  }
+
 }
